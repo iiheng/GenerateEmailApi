@@ -10,8 +10,6 @@ from pydantic import BaseModel
 # Constants for IMAP server and credentials
 IMAP_SERVER = 'imap.qq.com'
 IMAP_PORT = 993
-USERNAME = '1769084891@qq.com'
-PASSWORD = 'mqwtlfubfptziebh'
 class EmailCredentials(BaseModel):
     username: str
     password: str
